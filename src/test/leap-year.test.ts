@@ -24,7 +24,7 @@ describe('leapYear', () => {
     ${2000}
     ${2400}
     `("Should return true if the year is divisible by 400", ({year}) => {
-      expect(isLeapYear(year)).toBe(false)
+      expect(isLeapYear(year)).toBe(true)
     });
 
     it.each`
